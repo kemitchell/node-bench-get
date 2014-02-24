@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 var program = require('commander');
 var util = require('util');
-var async = require('async');
 var hyperquest = require('hyperquest');
 program
   .version('0.0.1')
