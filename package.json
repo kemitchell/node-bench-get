@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "nab": "bin/bench.js",
+    "benchget": "bin/bench.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/miketheprogrammer/node-bench-get.git"
@@ -22,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/miketheprogrammer/node-bench-get/issues"
   },
-  "homepage": "https://github.com/miketheprogrammer/node-bench-get"
+  "homepage": "https://github.com/miketheprogrammer/node-bench-get",
+  "dependencies": {
+    "hyperquest": "~0.2.0",
+    "commander": "~2.1.0"
+  }
 }
