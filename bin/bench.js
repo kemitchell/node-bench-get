@@ -3,7 +3,7 @@ var program = require('commander');
 var util = require('util');
 var hyperquest = require('hyperquest');
 program
-  .version('0.0.1')
+  .version('0.0.2')
   .option('-n, --num_requests [num]', 'Number of total requests (n)')
   .option('-c, --concurrent [num]', 'Number of concurrent requests');
 
