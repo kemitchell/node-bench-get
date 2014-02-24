@@ -11,8 +11,13 @@ Simple Get benchmark command line similar to Apache Bench
     -V, --version             output the version number
     -n, --num_requests [num]  Number of total requests (n)
     -c, --concurrent [num]    Number of concurrent requests
+    -o, --out [filepath]      Write responses to [output] as json
 
 Url to hit is the last parameter
-Example: nab -n 10 -c 5 "http://google.com/"
-Example: benchget -n 10 -c 5 "http://google.com/"
-Example: node index.js -n 10 -c 5 "http://google.com/"
+
+Example: nab -n 10 -c 5 -o output.json "http://google.com/"
+
+Example: benchget -n 10 -c 5 -o output.json "http://google.com/"
+
+Example: node index.js -n 10 -c 5 -o output.json "http://google.com/"
+
