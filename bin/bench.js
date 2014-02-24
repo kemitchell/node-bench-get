@@ -4,7 +4,7 @@ var util = require('util');
 var hyperquest = require('hyperquest');
 var fs = require('fs');
 program
-  .version('0.0.2')
+  .version('0.1.0')
   .option('-n, --num_requests [num]', 'Number of total requests (n)')
   .option('-c, --concurrent [num]', 'Number of concurrent requests')
   .option('-o, --out [filepath]', 'Write responses to [output] as json');

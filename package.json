@@ -1,6 +1,6 @@
 {
   "name": "benchget",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Simple Get benchmark command line similar to Apache Bench",
   "main": "index.js",
   "scripts": {
