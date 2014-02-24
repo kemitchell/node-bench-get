@@ -1,0 +1,26 @@
+{
+  "name": "benchget",
+  "version": "0.0.1",
+  "description": "Simple Get benchmark command line similar to Apache Bench",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/node-bench-get.git"
+  },
+  "keywords": [
+    "benchmark",
+    "get",
+    "concurrent",
+    "request",
+    "http"
+  ],
+  "author": "Michael Hernandez - michael.hernandez1988@gmail.com",
+  "license": "BSD 2-clause",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/node-bench-get/issues"
+  },
+  "homepage": "https://github.com/miketheprogrammer/node-bench-get"
+}
