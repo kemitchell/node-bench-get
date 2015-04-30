@@ -22,7 +22,7 @@
     "http"
   ],
   "author": "Michael Hernandez - michael.hernandez1988@gmail.com",
-  "license": "BSD 2-clause",
+  "license": "2-clause",
   "bugs": {
     "url": "https://github.com/miketheprogrammer/node-bench-get/issues"
   },
